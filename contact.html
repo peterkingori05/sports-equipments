@@ -15,6 +15,12 @@ background-position: center;
         font-size: larger;
     }
 </style>
+        <script type="text/javascript">
+function show_alert()
+{
+    alert("IF YOU RESET ALL YOUR DATA WILL BE LOST!!");
+}
+</script>
     </head>
     <body>
         <form>
@@ -41,7 +47,7 @@ background-position: center;
         <input type="radio" name="radio">no</input> <br>
 
 <input type="image" name="submit" src="image/archery.jpg" width="50px" height="50px">submit <br> <br>
-<input type="reset"><br>
+<input type="button" onclick="show_alert()" value="alert box" </input><br>
         </fieldset>
        
     </form>
